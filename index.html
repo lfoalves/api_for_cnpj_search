@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de CNPJ</title>
+  <link rel="stylesheet" href="./styles/style.css" />
+  <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+
+  <form action="#">
+    <input type="search" name="" id="" placeholder="CNPJ: 00.000.000/0000.00" />
+    
+    <!-- <p>
+      <label for="cCid">Cidade:&nbsp;</label>
+      <input type="text" name="tCity" id="cCity"
+        maxlength="40" size="20"
+        placeholder="Sua Cidade" list="cidades"
+      />
+    </p>
+    <datalist id="cidades">
+      <option value="26947530000135"></option>
+      <option value="Rio de Janeiro"></option>
+      <option value="Nova Iguaçu"></option>
+      <option value="Niterói"></option>
+      <option value="Belford Roxo"></option>            
+    </datalist> -->
+
+    <input type="submit" value="Buscar CNPJ">
+  </form>
+
+  <table>
+
+    <thead>
+      <tr>
+        <th colspan="2">Dados do CNPJ</th>
+      </tr>
+      <tr>
+          <th>Razão Social</th>
+          <th class='razao-social'>Nome da empresa</th>
+      </tr>
+      <tr>
+          <th>CNPJ</th>
+          <th class="estabelecimento">00.000.000/0000-00</th>
+      </tr>
+      <tr>
+        <th>Nome fantasia</th>
+        <th class="nome-fantasia">nome fantasia</th>
+    </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Porte</td><td class="porte">Finanças da Empresa</td>
+      </tr>
+      <tr>
+        <td>Atividade principal</td><td class="atividade-principal">Prestação Serviços</td>
+      </tr>
+      <tr>
+        <td>Optante pelo simples</td><td class="simples">--</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="font-weight: bolder; text-align: center;">Localização</td>
+      </tr>
+      <tr>
+        <td>Logradouro</td><td class="logradouro">Rua</td>
+      </tr>
+      <tr>
+        <td>Número</td><td class="address-number">0000</td>
+      </tr>
+      <tr>
+        <td>Bairro</td><td class="district">Bairro</td>
+      </tr>
+      <tr>
+        <td>Cidade</td><td class="city">Cidade</td>
+      </tr>
+      <tr>
+        <td>Estado</td><td class="state">Estado</td>
+      </tr>
+      <tr>
+        <td>País</td><td class="country">País</td>
+      </tr>      
+    </tbody>
+  </table>
+  
+</body>
+</html>
